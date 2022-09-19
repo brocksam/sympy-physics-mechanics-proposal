@@ -11,6 +11,8 @@ While questions/considerations in the files themselves are labeled with `# QUEST
 Pros:
 - Useful for identification
 - Could be used to share common properties and methods
+Cons:
+- 
 
 2. The new file structure
 

@@ -1,7 +1,9 @@
 from .method import _Method
 from .kane import KanesMethod
+from .loads import _Load, _LoadComposition
 
 
+# QUESTION should in the end be compatible to for example pydy
 # QUESTION what is the best name: JointsMethod, Model or System
 class System(_Method):
     def add_coordinates(self, coordinates, ifexists='raise'):
@@ -28,7 +30,7 @@ class System(_Method):
     def apply_force(self, point, force):
         pass
 
-    def form_eoms(self, method=KanesMethod):
+    def _form_eoms(self, method=KanesMethod):
         pass
 
     @property

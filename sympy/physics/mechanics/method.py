@@ -8,6 +8,8 @@ class _Method(ABC):
     abstractmethods? Implementation would save boiler plate and if a method
     would save it under a different attribute internally, one can overwrite the
     property.
+
+    # QUESTION implicit vs explicit: https://github.com/sympy/sympy/pull/23580
     """
 
     @property
