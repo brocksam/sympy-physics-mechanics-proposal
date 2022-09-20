@@ -11,6 +11,7 @@ While questions/considerations in the files themselves are labeled with `# QUEST
 Pros:
 - Useful for identification
 - Could be used to share common properties and methods
+
 Cons:
 - 
 
@@ -19,3 +20,5 @@ Cons:
 3. Do we want a separate `Inertia` object, which inherits `DyaDic`?
 
 4. `Constraint` is a `Matrix`
+
+5. Should we model collisions? If so, how?
